@@ -6,7 +6,7 @@ from PyQt5 import Qt, QtGui, QtCore, QtWidgets
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 import pymysql
-from TEST.test49zhujiemian import *
+from main1 import *
 
 class MainWindow2(object):
     def tianjia(self, MainWindow):
@@ -173,10 +173,6 @@ class MainWindow2(object):
     def Click_tuichu(self):
         # print('退出成功！')
         self.centralwidget.close()
-        # self.windows_name1 = QMainWindow()
-        # self.UI_name1 = MainWindow1()
-        # self.UI_name1.xianshi(self.windows_name1)
-        # self.windows_name1.show()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

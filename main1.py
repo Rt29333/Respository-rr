@@ -68,9 +68,9 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox, QDialog
 from PyQt5 import Qt, QtGui, QtCore, QtWidgets
 import sys
 import pymysql
-from InformationSystem.insertdates import *
-from InformationSystem.deletedates import *
-from InformationSystem.updates import *
+from insertdates import *
+from deletedates import *
+from updates import *
 # from TEST.test48denglujiemian import *
 import xlwt
 class Denglujiem(object):

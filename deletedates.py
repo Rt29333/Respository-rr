@@ -76,16 +76,6 @@ class MainWindow3(object):
         self.textbox2.resize(130, 50)
         self.textbox2.move(140, 120)
 
-        # # 个人ID标签
-        # self.label3 = QtWidgets.QLabel(self.centralwidget)
-        # self.label3.setText('个人ID：')
-        # self.label3.resize(100, 50)
-        # self.label3.move(70, 140)
-        #
-        # # 个人ID输入框
-        # self.textbox3 = QtWidgets.QLineEdit(self.centralwidget)
-        # self.textbox3.resize(120, 30)
-        # self.textbox3.move(150, 148)
 
         # 删除按键
         self.button1 = QtWidgets.QPushButton(self.centralwidget)
