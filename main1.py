@@ -71,16 +71,16 @@ import pymysql
 from insertdates import *
 from deletedates import *
 from updates import *
-# from TEST.test48denglujiemian import *
+
 import xlwt
 class Denglujiem(object):
     def setupUi(self, MainWindow):
         MainWindow.setWindowTitle("信息管理")
         MainWindow.resize(450, 400)
         MainWindow.move(600, 200)
-        MainWindow.setWindowIcon(QtGui.QIcon('章若楠.jpg'))
+        MainWindow.setWindowIcon(QtGui.QIcon('Imgs/章若楠.jpg'))
         background_img = QtGui.QPalette()
-        background_img.setBrush(MainWindow.backgroundRole(), QtGui.QBrush(QtGui.QPixmap('登陆背景.jpg').scaled(669, 450)))
+        background_img.setBrush(MainWindow.backgroundRole(), QtGui.QBrush(QtGui.QPixmap('Imgs/登陆背景.jpg').scaled(669, 450)))
         MainWindow.setPalette(background_img)
         self.centralwidget = MainWindow
         self.centralwidget.setObjectName("centralwidget")
@@ -243,7 +243,7 @@ class MainWindow1(object):
         MainWindow.setWindowTitle("信息管理系统")
         MainWindow.resize(780, 700)
         MainWindow.move(600, 220)
-        MainWindow.setWindowIcon(QtGui.QIcon('章若楠.jpg'))
+        MainWindow.setWindowIcon(QtGui.QIcon('Imgs/章若楠.jpg'))
         self.centralwidget = MainWindow
         self.centralwidget.setObjectName("centralwidget")
         # MainWindow.setWindowTitle("信息管理")

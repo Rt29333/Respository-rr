@@ -13,7 +13,7 @@ class MainWindow4(object):
         MainWindow.resize(400, 400)
         MainWindow.move(950, 350)
         MainWindow.move(600, 200)
-        MainWindow.setWindowIcon(QtGui.QIcon('章若楠.jpg'))
+        MainWindow.setWindowIcon(QtGui.QIcon('Imgs/章若楠.jpg'))
         self.centralwidget = MainWindow
         self.centralwidget.setObjectName("centralwidget")
 
